@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Description: A C programme that a string usinf puts function
+ * Description: A C programme that a string using puts function
  *
  * Return: Always 0 (success)
  */

@@ -1,29 +1,17 @@
-**
+#include "main.h"
 
- * _isupper - check if c is upper
-
+/**
+ * _isdigit - checks if input is digit between 0 - 9
  *
-
- * @c: input for alphabet
-
+ * @c: input
  *
-
- * Return: 1 if its uppercase, 0 if not
-
+ * Return: 1 if is digit, 0 if not
 */
 
-
-
-int _isupper(int c)
-
+int _isdigit(int c)
 {
-
-	if (c >= 65 && c <= 90)
-
+	if (c >= 48 && c <= 57)
 		return (1);
-
 	else
-
 		return (0);
-
 }
